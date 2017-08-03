@@ -29,9 +29,8 @@ public class C {
         }
 
         int[] array = new int[lenght];
-        Scanner ask = new Scanner(System.in);
         for (int i = 0; i < lenght; i++) {
-            array[i] = ask.nextInt();
+            array[i] = reader.nextInt();
         }
         int[] orderArray = new int[lenght];
 
